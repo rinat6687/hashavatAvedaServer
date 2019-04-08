@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="809f6a5541404b24b42919628d6f1d20" Name="Diagram1">
+        <EntityTypeShape EntityType="hashavatAveda1Model3.Advertisement" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="hashavatAveda1Model3.Categories" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="hashavatAveda1Model3.Users" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="hashavatAveda1Model3.archives" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="hashavatAveda1Model3.FK__Advertise__categ__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="hashavatAveda1Model3.FK__Advertise__userK__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="hashavatAveda1Model3.FK__Categorie__categ__3B75D760" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
