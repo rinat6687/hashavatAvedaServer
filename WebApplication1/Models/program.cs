@@ -159,9 +159,9 @@ namespace WebApplication1.Models
                 mail email = new mail();
                 try
                 {
-                    var fromAddress = new MailAddress("rinat6687@gmail.com", "From Name");
+                    var fromAddress = new MailAddress("yourMail@gmail.com", "From Name");
         var toAddress = new MailAddress(ad.material, "To Name");
-        const string fromPassword = "rinat5510";
+        const string fromPassword = "your gmail pass";
         const string subject = "מייל מאתר lost-found";
              var catName  =   db.Categories.ToList().Find(x => x.categoryKod == ad.category).categoryName;
                catName= catName.Replace(" ","");
